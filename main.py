@@ -1,7 +1,7 @@
 from classes import Bot
 from cogs import setup
 
-token = "Nzk3ODAzMDA0NjQ0Mjk0Njc3.GRYcsW.s_5PNwJKx9iwAi6xJoxTKIL9dm0rby6p_uFphc"
+token = "Token"  # the token (on past commit) was changed
 bot = Bot("db.json")  # path of database
 
 setup(bot)
