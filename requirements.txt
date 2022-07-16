@@ -1,0 +1,2 @@
+disnake~=2.5.1
+jdatetime~=4.1.0
