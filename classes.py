@@ -81,7 +81,7 @@ class TicketMaker(disnake.ui.View):
         self._category = category
         super(TicketMaker, self).__init__(timeout=None)
 
-    @disnake.ui.button(label="ساخت تیکت", emoji="✉", style=disnake.ButtonStyle.primary)
+    @disnake.ui.button(label="ساخت تیکت", emoji="✉", style=disnake.ButtonStyle.primary, custom_id="Ticket")
     async def create_ticket(self, button: disnake.ui.Button, interaction: disnake.MessageInteraction):
         await interaction.response.defer(with_message=True, ephemeral=True)
 
